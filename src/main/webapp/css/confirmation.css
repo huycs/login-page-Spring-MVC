@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	background-color: skyblue;	
+	line-height: 70px;
+	padding-left: 30px;
+}
+
+a, a:hover {
+	font-weight: bold!important;
+	text-decoration: none!important;
+}
+
+.logout {
+	float: right;
+	padding-right: 30px;
+}
+
+ul {
+	background-color: #424a5b;
+	width: 10%;
+	height: 100%;
+	position: fixed;
+	padding-top: 5%;
+	text-align: center;
+}
+
+ul li {
+	text-align: left;
+	list-style: none;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+ul li a {
+	color: white;
+	font-weight: bold;
+}
+
+ul li a:hover {	
+	color: skyblue;
+	text-decoration: none;
+}
+
+.content {
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+.content .page-title {
+	width: 50%;
+	color: white;
+	background-color: skyblue;
+	text-align: left;
+}
+
+table {
+	width: 50%;
+	border-collapse: collapse;	
+	font-size: 1.1rem;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.edit {
+	color: green;
+}
+
+.delete {
+	color: red;
+}
+
+.edit:hover, .delete:hover {
+	text-decoration: underline;
+}
